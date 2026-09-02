@@ -1,8 +1,16 @@
-# Agent 评测体系
+# Agent 评测参考笔记
 
-> AIGC 评测的是「产出物好不好」，Agent 评测的是「**过程对不对**」。这是两套完全不同的方法。
+> ⚠️ **这篇是文献整理，不是我的实践总结。**
+>
+> 我做的是 AIGC 类产品，没有做过 Agent 类产品的评测。这份笔记是我为了理解「如果换到 Agent 场景，评测该怎么做」而整理的公开资料，来源包括 DeepEval / Confident AI、Galileo、Arize、NVIDIA 的公开文档。
+>
+> 之所以留在仓库里，是因为我发现 Agent 评测和 AIGC 评测的逻辑差异很大，这个对比本身让我对「评测到底在评什么」理解更清楚了。但里面所有内容我都**没有实际验证过**。
 
 ---
+
+## 核心差异：评产出物 vs 评过程
+
+AIGC 评测的是「产出物好不好」，Agent 评测的是「**过程对不对**」。
 
 ## 为什么不能沿用 AIGC 的评测方法
 
@@ -265,9 +273,8 @@ Agent 产品在给出答案之前，可能已经做了：制定计划、调用�
 ## 相关
 
 - [AIGC 效果评测体系](./aigc-evaluation.md)
-- [Prompt 工程设计](../02-pipeline/prompt-engineering.md)
-- [模型分层调度](../02-pipeline/model-tiering.md)
-- [线上问题图谱](../03-robustness/failure-atlas.md)
+- [Prompt 撑写 skill](../prompt-writing/README.md)
+- [模型选型 skill](../model-selection/README.md)
 
 ---
 

@@ -11,7 +11,7 @@
   15011 - 模型返回内容为空        → Prompt/输入问题，找产品
   15012 - 内容无法解析为 JSON     → 格式约束问题，Prompt + 解析双侧优化
 
-详细的演进过程见 03-robustness/robust-parsing.md
+详细的演进过程见 notes/容错解析演进.md
 """
 
 import re
